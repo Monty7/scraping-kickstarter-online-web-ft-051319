@@ -1,4 +1,4 @@
-# require libraries/modules here
+require 'pry'
 html = File.read('fixtures/kickstarter.html')
 
 Nokogiri::HTML(html)
