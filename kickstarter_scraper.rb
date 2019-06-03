@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'pry'
+require_relative './fixtures/kickstarter.html'
 html = File.read('fixtures/kickstarter.html')
 
 kickstarter = Nokogiri::HTML(html)
